@@ -60,9 +60,9 @@ class SignUp extends React.Component {
                 <h2 className='title'>
                     I do not have an account
                 </h2>
-                <spaan>
+                <span>
                     Sign up your email and password
-                </spaan>
+                </span>
                 <form className='sign-up-form' onSubmit={this.handleSubmit}>
                     <FormInput
                         type='text'
